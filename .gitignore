@@ -1,0 +1,24 @@
+# Python venv
+.venv/
+
+# KiCad 自动备份 / 锁文件 / 缓存
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pcb.lck
+*.kicad_sch.lck
+_autosave-*
+fp-info-cache
+
+# SKiDL 备份库与 REPL 产物
+skidl_*.py
+skidl_*.net
+skidl_*.erc
+
+# 仿真与检查产物
+*.raw
+*.log
+*.erc
+*.csv
+
+# 打样产物（按需提交时再放开）
+gerbers/
